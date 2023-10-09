@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+.rent {
+    height: 100%;
+    background-color: #0c0f12;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.title {
+    color: #ECD774;
+
+}
+
+.title span {
+    color: white;
+}
+
+.rent-terms {
+    display: flex;
+}
+
+.rent-terms__item {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.rent-terms__item:last-child {
+    margin-right: 0px;
+}
+
+.rent-terms__img {}
+
+.rent-terms__desc {}
+
+.btn {
+    border: none;
+    background-color: #ECD774;
+    border-radius: 5px;
+    padding: 8px 16px;
+    box-shadow: 0px 0px 3px 2px #ffc800;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #ddc85e;
+}
+
+.rent__img {}
